@@ -1,0 +1,41 @@
+# FastAPI Core Dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+sqlalchemy>=2.0.23
+python-multipart>=0.0.6
+
+# Google Gemini AI
+google-generativeai>=0.3.0
+
+# Chemistry Libraries - Core
+pubchempy>=1.0.4                   # PubChem database access
+chempy>=0.8.3                      # Chemical equations & reactions
+mendeleev>=0.14.0                  # Periodic table data
+periodictable>=1.6.1               # Alternative periodic table
+cirpy>=1.0.2                       # Chemical identifier resolver
+
+# Scientific Computing
+scipy>=1.11.0                      # Scientific algorithms
+numpy>=1.24.0                      # Numerical operations
+pandas>=2.1.0                      # Data manipulation
+matplotlib>=3.8.0                  # Plotting & visualization
+sympy>=1.12                        # Symbolic mathematics
+
+# Molecular & Chemical Data
+# Note: RDKit requires special installation via conda
+# Install separately: conda install -c conda-forge rdkit
+rdkit-pypi>=2022.9.5               # Molecular structure analysis (fallback)
+pypubsub>=4.0.3                    # Publisher-subscriber pattern
+
+# Additional Chemistry Tools
+chembl-webresource-client>=0.10.8  # ChEMBL database
+biopython>=1.81                    # Biochemistry tools
+pint>=0.22                         # Unit conversions
+
+# Utilities
+requests>=2.31.0                   # HTTP requests
+beautifulsoup4>=4.12.2             # Web scraping
+lxml>=4.9.3                        # XML processing
+pillow>=10.1.0                     # Image processing
